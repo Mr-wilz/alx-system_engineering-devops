@@ -1,2 +1,2 @@
 #!/bin/bash
-alias newest='ls -lt | head -n 10'
+ls -lt | head
