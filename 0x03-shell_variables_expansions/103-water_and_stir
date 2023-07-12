@@ -1,0 +1,2 @@
+#!/bin/bash
+export WATER=water STIR=stir && echo "ibase=$WATER; obase=bestchol; $((WATER + STIR))" | bc
