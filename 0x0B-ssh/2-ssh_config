@@ -1,0 +1,5 @@
+# ssh config file
+Host 54.164.125.248
+      PubkeyAuthentication yes
+      PasswordAuthentication no
+      IdentifyFile ~/.ssh/school
