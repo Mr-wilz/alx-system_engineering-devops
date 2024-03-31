@@ -1,12 +1,12 @@
-# SYSTEM ENGINEERING AND DEVOPS
+# SYSTEM ENGINEERING AND DEVOPS 🚀💻
 Module of **System engineering** and **Devops**, carried out during **Full Stack Software Engineering studies** at **[ALX](https://www.alxafrica.com/)**.
 # *BY*:
-## Name: Wilfort Abel
+## Name: Wilfort Abel &#x1F60E; <!-- 😎 -->
 ## Email: <a href="mailto:juiciwhilf@gmail.com">&#x1F4E7; juiciwhilf@gmail.com</a>
 ## Tel: <a href="tel:+2347061251386">&#x1F4DE; +2347061251386</a>
 _
 ## Projects
-All of the following folders are projects done during the studies:
+The following are projects done during the studies:
 
 | Project name | Description |
 | ------------ | ----------- |
@@ -33,10 +33,8 @@ All of the following folders are projects done during the studies:
 | [`0x14-mysql`](https://github.com/aysuarex/alx-system_engineering-devops/tree/master/0x14-mysql) | This aims to learn how to incorporate the use of MySQL in this module |
 | [`0x15-api`](https://github.com/aysuarex/alx-system_engineering-devops/tree/master/0x15-api) | This aims to learn how to incorporate the use of api in this module  |
 | [`Command Line For The Win`](https://github.com/aysuarex/alx-system_engineering-devops/tree/master/command_line_for_the_win) |  This aims to gain mastery of command line commands across different difficulties |
-| [`Attack Is The Best Defense`](https://github.com/aysuarex/alx-system_engineering-devops/tree/master/attack_is_the_best_defense) | ..  |
+| [`Attack Is The Best Defense`](https://github.com/aysuarex/alx-system_engineering-devops/tree/master/attack_is_the_best_defense) | this aims to get a good knowlege of network sniffing and packet sniffers. |
 
-## Author :
-* **[Suara Ayomide](https://twitter.com/Aysuarex)** <[Aysuarex](https://github.com/Aysuarex)>
 
 ## Acknowledgements :pray:
 
