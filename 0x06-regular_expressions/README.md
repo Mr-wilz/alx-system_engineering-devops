@@ -7,8 +7,9 @@ them using Ruby's Oniguruma library.
 All code in this directory was tested using [Rubular](https://rubular.com/). Rubular is a Ruby-based regular expression editor. It's a handy way to test regular expressions as you write them.
 
 # AUTHOR:
-** Wifort Abel.**
-** juiciwhilf@gmail.coom.**
+*Wifort Abel.*
+
+[juiciwhilf@gmail.com](mailto:juiciwhilf@gmail.com)
 
 ## Tasks :page_with_curl:
 
