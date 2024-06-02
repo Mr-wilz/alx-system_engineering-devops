@@ -1,0 +1,46 @@
+#!/bin/env bash
+
+# Function to display usage instructions
+usage() {
+    echo "Usage: $0 PATH_TO_FILE IP USERNAME [PATH_TO_SSH_KEY]"
+    exit 1
+}
+
+# Check if the number of parameters is less than 3
+if [ "$#" -lt 3 ]; then
+    usage
+fi
+
+# Assign parameters to variables
+FILE_PATH=$1
+SERVER_IP=$2
+USERNAME=$3
+
+# Check if the file exists
+if [ ! -f "$FILE_PATH" ]; then
+    echo "Error: File $FILE_PATH does not exist."
+    exit 1
+fi
+
+# If the fourth parameter (SSH key) is provided
+if [ "$#" -eq 4 ]; then
+    SSH_KEY_PATH=$4
+    # Check if the SSH key exists
+    if [ ! -f "$SSH_KEY_PATH" ]; then
+        echo "Error: SSH key $SSH_KEY_PATH does not exist."
+        exit 1
+    fi
+    # Transfer the file using scp with the SSH key
+    scp -i "$SSH_KEY_PATH" -o StrictHostKeyChecking=no "$FILE_PATH" "$USERNAME@$SERVER_IP:~/"
+else
+    # Transfer the file using scp without the SSH key
+    scp -o StrictHostKeyChecking=no "$FILE_PATH" "$USERNAME@$SERVER_IP:~/"
+fi
+
+# Check if the scp command was successful
+if [ $? -eq 0 ]; then
+    echo "File transferred successfully."
+else
+    echo "Error: File transfer failed."
+    exit 1
+fi
